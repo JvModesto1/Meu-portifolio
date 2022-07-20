@@ -13,6 +13,10 @@ header {
     top: 0;
 }
 
+img {
+    width: 50px;
+    height: 50px;
+}
 
 nav {
     text-align: right;
@@ -47,16 +51,15 @@ a::before {
     line-height: 15px;
     padding: 16px 18px;
     margin-right: 0;
+    transition: 0.8s;
     
 }
 
-img {
-    width: 50px;
-    height: 50px;
-}
+
 
 #button:hover{
     color: black;
     background: white;
-    transition: 0.8s;
+    transform: scale(1.08);
+
 }
