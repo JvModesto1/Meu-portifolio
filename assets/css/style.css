@@ -63,3 +63,38 @@ a::before {
     transform: scale(1.08);
 
 }
+
+#presentation {
+    position: absolute;
+    background-color: #3A4042;
+    top: 150px; left: 90px;
+    box-shadow: 6px 6px 0px #000;
+    width: 580px;
+    height: 184px;
+}
+
+.my-name {
+    font-family: "Press Start 2P", sans-serif;
+    color: #F25A70;
+    text-shadow: 4px 4px 0px #000;
+    position: absolute;
+    width: 440px;
+    height: 40px;
+    top: 42px;
+    left: 70px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.function {
+    font-family: "Press Start 2P", sans-serif;
+    color: #FFFFFF;
+    position: absolute;
+    text-shadow: 4px 4px 0px #000;
+    top: 110px;
+    left: 20px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+}
