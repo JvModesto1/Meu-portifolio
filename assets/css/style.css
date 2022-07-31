@@ -13,7 +13,7 @@ header {
     top: 0;
 }
 
-img {
+.logo {
     width: 50px;
     height: 50px;
 }
@@ -55,8 +55,6 @@ a::before {
     
 }
 
-
-
 #button:hover{
     color: black;
     background: white;
@@ -67,34 +65,80 @@ a::before {
 #presentation {
     position: absolute;
     background-color: #3A4042;
-    top: 150px; left: 90px;
+    top: 180px; left: 90px;
     box-shadow: 6px 6px 0px #000;
     width: 580px;
     height: 184px;
 }
 
-.my-name {
-    font-family: "Press Start 2P", sans-serif;
-    color: #F25A70;
-    text-shadow: 4px 4px 0px #000;
+
+.second-btn {
     position: absolute;
-    width: 440px;
-    height: 40px;
-    top: 42px;
-    left: 70px;
+    top: 400px;
+    left: 150px;
+    background-color: #F25A70;
+    box-shadow: 5px 5px 0px #000000;
+    width: 150px;
+    height: 50px;
+    font-family: "Fira code", sans-serif;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    line-height: 26px;
+    border: none;
+
 }
 
-.function {
-    font-family: "Press Start 2P", sans-serif;
-    color: #FFFFFF;
+a.contact {
     position: absolute;
-    text-shadow: 4px 4px 0px #000;
-    top: 110px;
-    left: 20px;
-    font-size: 30px;
-    line-height: 30px;
-    font-weight: 400;
+    top: 400px;
+    left: 450px;
+    margin: 0;
+    background-color: #F25A70;
+    font-family: "Fira code", sans-serif;
+    box-shadow: 5px 5px 0px #000000;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+ 
+}
+
+a.contact::before {
+    content: none;
+}
+
+
+.first-img {
+    background: url("../img/teste2.jpg");
+    width: 1349px;
+    height: 850px;
+    left: 0px;
+    top: 80px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second-img{
+    background: url("../img/teste2.jpg");
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: blur(5px);
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    height: 850px;
+    width: 900px;
+    background-repeat: no-repeat;
+    background-size: 1300px;
+}
+
+#horizontal-line {
+    position: absolute;
+    width: 3px;
+    height: 850px;
+    background: black;
+    top: 80px;
+    left: 899px;
+
 }
