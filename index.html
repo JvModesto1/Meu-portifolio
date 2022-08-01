@@ -9,9 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/components/title.css">
+    <link rel="stylesheet" href="assets/css/components/presentation.css">
+    <link rel="stylesheet" href="assets/css/components/action.css">
+    <link rel="stylesheet" href="assets/css/components/button.css">
+    <link rel="stylesheet" href="assets/css/components/header.css">
+    <link rel="stylesheet" href="assets/css/components/banner.css">
     <title>Meu Portifolio</title>
     <link rel="icon" href="assets/img/icon.jpg">
 </head>
@@ -20,24 +23,25 @@
     <header>
         <img class="logo" src="assets/img/logo.png" alt="Imagem do eeve" title="o pokemon mais fofo">
         <nav> 
-        <a href="#" lang="en">Skills</a> <!--Para navegar pelo site, lembrar-->
-        <a href="">Projetos</a>
-        <a href="">Sobre</a>
-        <a href="">Contatos</a>
-        <a href="" id="button">Download CV</a>
+        <a class="action" href="#" lang="en">Skills</a> <!--Para navegar pelo site, lembrar-->
+        <a class="action" href="">Projetos</a>
+        <a class="action" href="">Sobre</a>
+        <a class="action" href="">Contatos</a>
+        <a class="action" href="" id="button">Download CV</a>
     </header>
+        <section class="banner">
 
-    <div class="first-img"></div>
-    <div class="second-img"></div>
-    <div id="horizontal-line"></div>
-        <div id="presentation">
-        <h1 class="my-name">João Victor</h1>
-        <h2 class="function">FrontEnd Developer</h2>
-        </div>
-    
-        <button type="button" class="second-btn">Download CV</button>
-        <a href="" class="contact">Contatos</a>
-
+            <div class="wrapper">
+                <div id="presentation">
+                    <h1 class="my-name">João Victor</h1>
+                    <h2 class="function">FrontEnd Developer</h2>
+                </div>
+                <div class="navigation">
+                    <button type="button" class="second-btn">Download CV</button>
+                    <a href="" class="contact">Contatos</a>
+                </div>
+            </div>
+        </section>
 
 </body>
 </html>
