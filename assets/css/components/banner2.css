@@ -1,0 +1,12 @@
+.back-skill{
+    height: 56vw;
+    background-color: #F25A70;
+    font-size: 40px;
+    border-bottom: 10px solid #000;
+}
+
+.back-skill .skills {
+     display: flex;   
+    justify-content: center;
+    padding-top: 50px;
+}
