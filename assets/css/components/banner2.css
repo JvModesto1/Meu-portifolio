@@ -1,5 +1,5 @@
 .back-skill{
-    height: 56vw;
+    height: 48vw;
     background-color: #F25A70;
     font-size: 40px;
     border-bottom: 10px solid #000;
@@ -9,4 +9,22 @@
      display: flex;   
     justify-content: center;
     padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+
+
+.back-skill .all {
+    box-sizing: border-box;
+    margin-left: 220px;
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.back-skill .container {
+    display: flex;
+    padding-right: 50px;
+    padding-bottom: 70px;
 }
