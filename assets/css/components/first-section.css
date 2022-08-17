@@ -1,4 +1,4 @@
-.banner {
+.section.-first {
     box-sizing: border-box;
     background-image: url(../../img/photo.png);
     height: 56vw;
@@ -7,19 +7,20 @@
     border-bottom: 10px solid #000;
     padding-top: 115px;
     padding-left: 90px;
+    background-color: #000;
 }
 
-.banner .wrapper {
+.section.-first .wrapper {
     display: flex;
     flex-direction: column;
     width: 640px;  
 }
-.banner #presentation {
+.section.-first  #presentation {
     margin-bottom: 40px;
 
 }
 
-.banner .navigation {
+.section.-first .navigation {
     display: flex;
     justify-content: space-around;
 }

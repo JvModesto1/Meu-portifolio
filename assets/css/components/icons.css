@@ -1,56 +1,24 @@
+.skill-tec{
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+    
+}
 
-.name-icon{
+
+.title{
     font-family: 'Press Start 2P';
     font-size: 20px;
-    padding-bottom: 20px;
-    font-weight: 100;
+    margin-bottom: 16px;
 }
 
-
-.bar {
-    height: 30px;
-    background: #7C5E99
-}
-
-.html {
-    width: 180px;
-}
-
-.css {
-    width: 180px;
-}
-
-.react {
-    width: 0;
-}
-
-.js {
-    width: 72px;
-}
-
-.api {
-    width: 0;
-}
-
-.node {
-    width: 0;
-}
-
-
-.sizebar {
-    width: 360px;
-    height: 30px;
-    background-color: white ;
-}
-
-.icons {
-     margin-left: 20px;
-}
-
-.img-icons-api {
-    padding-top: 10px;
-    height: 54px;
+.icon {
+    margin-right: 25px;
     width: 90px;
 }
 
-
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

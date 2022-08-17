@@ -14,9 +14,12 @@
     <link rel="stylesheet" href="assets/css/components/action.css">
     <link rel="stylesheet" href="assets/css/components/button.css">
     <link rel="stylesheet" href="assets/css/components/header.css">
-    <link rel="stylesheet" href="assets/css/components/banner.css">
-    <link rel="stylesheet" href="assets/css/components/banner2.css">
+    <link rel="stylesheet" href="assets/css/components/first-section.css">
+    <link rel="stylesheet" href="assets/css/components/second-section.css">
     <link rel="stylesheet" href="assets/css/components/icons.css">
+    <link rel="stylesheet" href="assets/css/components/progress-bar.css">
+    <link rel="stylesheet" href="assets/css/components/wrapper-skill.css">
+    <link rel="stylesheet" href="assets/css/components/third-section.css">
     <title>Meu Portifolio</title>
     <link rel="icon" href="assets/img/icon.jpg">
 </head>
@@ -31,7 +34,7 @@
         <a class="action" href="">Contatos</a>
         <a class="action" href="" id="button">Download CV</a>
     </header>
-        <section class="banner">
+        <section class="section -first">
             <div class="wrapper">
                 <div id="presentation">
                     <h1 class="my-name">João Victor</h1>
@@ -43,70 +46,71 @@
                 </div>
             </div>
         </section>
-        <section class="back-skill">
-            <h1 class="skills">Skills</h1>
-                <div class="all">
-                    <div class="container">
-                        <img class="img-icons" src="assets/img/ico_html5.png" alt="icone de html5">
-                        <div class="icons">
-                            <h3 class="name-icon">HTML</h3>
-                            <div class="sizebar">
-                                 <div class="bar html"></div>
-                            </div>
-                        </div>
-                    </div> 
+        <section class="section">
+            <h1 class="main-title -skills">Skills</h1>
+            <div class="wrapper-skill">
+                <article class="skill-tec">
+                    <img class="icon" src="/assets/img/ico_html5.png" alt="Logo HTML5">
+                    <div class="right">   
+                         <h3 class="title">HTML</h3>   
+                         <progress class="progress-bar" max="100" value="40">
+                                40%
+                        </progress>
+                    </div>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="/assets/img/ico_nodejs.png" alt="Logo Nodejs">
+                    <div class="right">   
+                         <h3 class="title">NodeJs</h3>   
+                         <progress class="progress-bar" max="100" value="10">
+                                10%
+                        </progress>
+                    </div>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="/assets/img/ico_css3.png" alt="Logo CSS3">
+                    <div class="right">   
+                         <h3 class="title">CSS</h3>   
+                         <progress class="progress-bar" max="100" value="40">
+                                40%
+                        </progress>
+                    </div>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="/assets/img/ico_react.png" alt="Logo do React">
+                    <div class="right">   
+                         <h3 class="title">React Native</h3>   
+                         <progress class="progress-bar" max="100" value="5">
+                                5%
+                        </progress>
+                    </div>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="/assets/img/ico_js.png" alt="Logo do JS">
+                    <div class="right">   
+                         <h3 class="title">JavaScript</h3>   
+                         <progress class="progress-bar" max="100" value="20">
+                                20%
+                        </progress>
+                    </div>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="/assets/img/ico_restapi.png" alt="RestApi">
+                    <div class="right">   
+                         <h3 class="title">RestAPI</h3>   
+                         <progress class="progress-bar" max="100" value="5">
+                                5%
+                        </progress>
+                    </div>
+                </article>
+            </div>
+       </section>
 
-                    <div class="container">
-                        <img class="img-icons" src="assets/img/ico_nodejs.png" alt="icone de nodejs">
-                        <div class="icons">
-                            <h3 class="name-icon">NodeJS</h3>
-                            <div class="sizebar">
-                                <div class="bar node"></div>
-                            </div>
-                        </div>
-                    </div> 
-
-                    <div class="container">
-                        <img class="img-icons" src="assets/img/ico_js.png" alt="icone de js">
-                        <div class="icons">
-                            <h3 class="name-icon">JavaScript</h3>
-                            <div class="sizebar">
-                                <div class="bar js"></div>
-                            </div>
-                        </div>
-                    </div> 
-
-                    <div class="container">
-                        <img class="img-icons" src="assets/img/ico_react.png" alt="icone de react">
-                        <div class="icons">
-                            <h3 class="name-icon">React Native</h3>
-                            <div class="sizebar">
-                                <div class="bar react"></div>
-                            </div>
-                        </div>
-                    </div> 
-
-                    <div class="container">
-                        <img class="img-icons" src="assets/img/ico_css3.png" alt="icone de css3">
-                        <div class="icons">
-                            <h3 class="name-icon">CSS</h3>
-                            <div class="sizebar">
-                                <div class="bar css"></div>
-                            </div>
-                        </div>
-                    </div> 
-
-                    <div class="container">
-                        <img class="img-icons-api" src="assets/img/ico_restapi.png" alt="icone de api">
-                        <div class="icons">
-                            <h3 class="name-icon">Rest API</h3>
-                            <div class="sizebar">
-                                <div class="bar api"></div>
-                            </div>
-                        </div>
-                    </div> 
-
-                </div>
+       <section class="section -projects">
+         <h1 class="main-title">Projetos</h1>
+            <article class="projects">
+                <img class="image-portifolio" src="/assets/img/portfolio.png" alt="">
+            </article>  
         </section>
 
 

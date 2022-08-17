@@ -17,6 +17,8 @@ button {
     font-family: inherit;
 }
 
-.contact {
-    font-family: inherit;
+
+.progress-bar {
+    -webkit-appearance: none;
+    appearance: none;
 }

@@ -1,0 +1,10 @@
+.section.-projects{
+    background-color: black;
+    border-bottom: 10px solid rgb(65, 64, 65);
+    height: 44vw;
+}
+
+.projects {
+    justify-content: space-evenly;
+    display: flex
+}
