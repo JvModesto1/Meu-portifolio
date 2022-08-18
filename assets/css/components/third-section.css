@@ -4,7 +4,11 @@
     height: 44vw;
 }
 
-.projects {
+.card-projects {
     justify-content: space-evenly;
     display: flex
+}
+
+.image-portifolio {
+    box-shadow: 10px 10px 0px rgb(85, 84, 84);
 }
