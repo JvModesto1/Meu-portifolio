@@ -4,7 +4,7 @@
     height: 44vw;
 }
 
-.card-projects {
+.wrapper-cards {
     justify-content: space-evenly;
     display: flex
 }
