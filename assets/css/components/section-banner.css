@@ -1,26 +1,27 @@
-.section.-first {
+.section.-banner{
     box-sizing: border-box;
     background-image: url(../../img/photo.png);
-    height: 56vw;
+    height:  56vw;
     background-repeat: no-repeat;
     background-size: 100%;
     border-bottom: 10px solid #000;
     padding-top: 115px;
     padding-left: 90px;
     background-color: #000;
+
 }
 
-.section.-first .wrapper {
+.section.-banner .wrapper {
     display: flex;
     flex-direction: column;
     width: 640px;  
 }
-.section.-first  #presentation {
+.section.-banner #presentation {
     margin-bottom: 40px;
 
 }
 
-.section.-first .navigation {
+.section.-banner .navigation {
     display: flex;
     justify-content: space-around;
 }

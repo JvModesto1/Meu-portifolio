@@ -1,0 +1,15 @@
+.section.-about{
+    background-color: #4C5B84;
+    border-bottom: 10px solid #000000;
+    height: 100%;
+}
+
+.main-description {
+    font-family: 'Fira Code', sans-serif;
+    font-size: 30px;
+    line-height: 1.3s;
+    font-weight: 300;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 70px;
+}

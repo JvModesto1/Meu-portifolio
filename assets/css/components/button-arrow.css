@@ -1,0 +1,27 @@
+.button-arrow {
+    width: 50px;
+    height: 50px;
+    background-color: #F25A70;
+    box-shadow: 5px 5px 0 #000;
+    cursor: pointer;
+}
+
+.button-arrow .content {
+    display: none;
+}
+
+.button-arrow::before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 16px solid transparent;
+    border-left: 27px solid blue;
+    box-sizing: border-box;
+    border-left-color: white;
+    transform: translateX(14px);
+}
+
+.button-arrow.-left::before{
+    transform: rotate(180deg) translateX(8px);
+}

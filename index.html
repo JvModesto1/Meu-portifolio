@@ -14,12 +14,19 @@
     <link rel="stylesheet" href="assets/css/components/action.css">
     <link rel="stylesheet" href="assets/css/components/button.css">
     <link rel="stylesheet" href="assets/css/components/header.css">
-    <link rel="stylesheet" href="assets/css/components/first-section.css">
-    <link rel="stylesheet" href="assets/css/components/second-section.css">
+    <link rel="stylesheet" href="assets/css/components/section-banner.css">
+    <link rel="stylesheet" href="assets/css/components/section-skills.css">
     <link rel="stylesheet" href="assets/css/components/icons.css">
     <link rel="stylesheet" href="assets/css/components/progress-bar.css">
     <link rel="stylesheet" href="assets/css/components/wrapper-skill.css">
-    <link rel="stylesheet" href="assets/css/components/third-section.css">
+    <link rel="stylesheet" href="assets/css/components/section-projects.css">
+    <link rel="stylesheet" href="assets/css/components/section-about.css">
+    <link rel="stylesheet" href="assets/css/components/node-card.css">
+    <link rel="stylesheet" href="assets/css/components/button-arrow.css">
+    <link rel="stylesheet" href="assets/css/components/main-carousel.css">
+    <link rel="stylesheet" href="assets/css/components/main-contacts.css">
+    <link rel="stylesheet" href="assets/css/components/section-contacts.css">
+
     <title>Meu Portifolio</title>
     <link rel="icon" href="assets/img/icon.jpg">
 </head>
@@ -28,13 +35,13 @@
     <header>
         <img class="logo" src="assets/img/logo.png" alt="Imagem do eeve" title="o pokemon mais fofo">
         <nav> 
-        <a class="action" href="#" lang="en">Skills</a> <!--Para navegar pelo site, lembrar-->
+        <a class="action" href="#" lang="en">Skills</a> 
         <a class="action" href="">Projetos</a>
         <a class="action" href="">Sobre</a>
         <a class="action" href="">Contatos</a>
         <a class="action" href="" id="button">Download CV</a>
     </header>
-        <section class="section -first">
+        <section class="section -banner">
             <div class="wrapper">
                 <div id="presentation">
                     <h1 class="my-name">João Victor</h1>
@@ -46,7 +53,7 @@
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section class="section -skills">
             <h1 class="main-title -skills">Skills</h1>
             <div class="wrapper-skill">
                 <article class="skill-tec">
@@ -114,9 +121,81 @@
                         <img class="image-portifolio" src="assets/img/portfolio.png" alt="">
                     </figure>  
                 </a>
+          
+             
+     
             </div>
         </section>
+        <section class="section -about">
+            <h1 class="main-title">Sobre</h1>
+            <section class="main-carousel">
+                <button class="button-arrow -left"><span class="content">Voltar</span></button>
+                <div class="items">
+                    <div class="elements">
+                        <figure class="node-card">
+                            <figcaption class="title">2022</figcaption>
+                            <img src="assets/img/portfolio.png" alt="" class="logo -project">
+                        </figure>
+                        <figure class="node-card">
+                            <figcaption class="title">2023</figcaption>
+                            <img src="assets/img/portfolio.png" alt="" class="logo -project">
+                        </figure>
+                        <figure class="node-card">
+                            <figcaption class="title">2024</figcaption>
+                            <img src="assets/img/portfolio.png" alt="" class="logo -project">
+                        </figure>
+                        <figure class="node-card">
+                            <figcaption class="title">2025</figcaption>
+                            <img src="assets/img/portfolio.png" alt="" class="logo -project">
+                        </figure>
+                        <figure class="node-card">
+                            <figcaption class="title">2026</figcaption>
+                            <img src="assets/img/portfolio.png" alt="" class="logo -project">
+                        </figure>
+                        <figure class="node-card">
+                            <figcaption class="title">2027</figcaption>
+                            <img src="assets/img/portfolio.png" alt="" class="logo -project">
+                        </figure>
+                     </div>
+                 </div>
+                <button class="button-arrow -right"><span class="content">Avançar</span></button>
+            </section>
+            <p class="main-description">Estagiário na área de Controladoria e terminando o curso de Administração, hoje busco migrar de área e atualmente sendo auto-didata fazendo projetos de FrontEnd.</p>
+        </section>
+        <section class="section -contacts">
+            <h1 class="main-title">Contatos</h1>
 
+            <form action="" method="get">
+                <div class="box -name">
+                    <label class="label" for="name">Nome</label>
+                    <input  class= "input" type="text" id="name" required>
+                </div>
+                
 
+                <div class="box -email">
+                    <label class="label"  for="email">E-mail</label>
+                    <input class= "input" type="email" id="email" required>
+                </div>
+                
+
+                <div class="box -msg">
+                    <label class="label"  for="msg">Mensagem</label>
+                    <textarea class= "input" id="msg" required></textarea>
+             </div>
+             <div class="main-button">
+                <button class="btn" type="submit">Enviar</button>
+            </div>
+            </form>
+        </section>
+
+        <footer class="main-contacts">
+            <div class="wrapper-icons">
+            <a href="https://github.com/JvModesto1" target="_blank"><img class="icons-footer" src="assets/img/icon-github.png" alt="Icon github"></a>
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-74163b182/" target="_blank"><img class="icons-footer" src="assets/img/icon-linekdin.png" alt="Icon linkedin"></a>
+            <a href="https://discordapp.com/users/790361885987438632" target="_blank"><img class="icons-footer" src="assets/img/icon-discord.png" alt="Icon discord"></a>
+        </div>
+        </footer>
+
+<script src="assets/js/components/main-carousel.js"></script>
 </body>
 </html>
