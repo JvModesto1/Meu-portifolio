@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="assets/css/components/main-carousel.css">
     <link rel="stylesheet" href="assets/css/components/main-contacts.css">
     <link rel="stylesheet" href="assets/css/components/section-contacts.css">
+    <link rel="stylesheet" href="assets/css/components/btn-fixed.css">
 
     <title>Meu Portifolio</title>
     <link rel="icon" href="assets/img/icon.jpg">
@@ -35,11 +36,13 @@
     <header>
         <img class="logo" src="assets/img/logo.png" alt="Imagem do eeve" title="o pokemon mais fofo">
         <nav> 
-        <a class="action" href="#" lang="en">Skills</a> 
-        <a class="action" href="">Projetos</a>
-        <a class="action" href="">Sobre</a>
-        <a class="action" href="">Contatos</a>
-        <a class="action" href="" id="button">Download CV</a>
+        <a class="action" href="#skills" lang="en">Skills</a> 
+        <a class="action" href="#projects">Projetos</a>
+        <a class="action" href="#about">Sobre</a>
+        <a class="action" href="#contacts">Contatos</a>
+        <a class="action" href="assets/archive/João Victor - Curriculo.docx" target="_blank" id="button">
+            Download CV
+        </a>
     </header>
         <section class="section -banner">
             <div class="wrapper">
@@ -48,12 +51,12 @@
                     <h2 class="function">FrontEnd Developer</h2>
                 </div>
                 <div class="navigation">
-                    <button type="button" class="second-btn">Download CV</button>
-                    <a href="" class="contact">Contatos</a>
+                    <a href="assets/archive/João Victor - Curriculo.docx"><button type="button" class="second-btn">Download CV</button></a>
+                    <a href="#contacts" class="contact">Contatos</a>
                 </div>
             </div>
         </section>
-        <section class="section -skills">
+        <section class="section -skills" id="skills">
             <h1 class="main-title -skills">Skills</h1>
             <div class="wrapper-skill">
                 <article class="skill-tec">
@@ -113,7 +116,7 @@
             </div>
        </section>
 
-       <section class="section -projects">
+       <section class="section -projects" id="projects">
          <h1 class="main-title">Projetos</h1>
             <div class="wrapper-cards">
                 <a href="https://jvmodesto1.github.io/Meu-portifolio/" target="_blank">
@@ -126,7 +129,7 @@
      
             </div>
         </section>
-        <section class="section -about">
+        <section class="section -about" id="about">
             <h1 class="main-title">Sobre</h1>
             <section class="main-carousel">
                 <button class="button-arrow -left"><span class="content">Voltar</span></button>
@@ -162,7 +165,7 @@
             </section>
             <p class="main-description">Estagiário na área de Controladoria e terminando o curso de Administração, hoje busco migrar de área e atualmente sendo auto-didata fazendo projetos de FrontEnd.</p>
         </section>
-        <section class="section -contacts">
+        <section class="section -contacts" id="contacts">
             <h1 class="main-title">Contatos</h1>
 
             <form action="" method="get">
@@ -187,6 +190,11 @@
             </div>
             </form>
         </section>
+        <a href="#top" class="btn-fixed visible">
+            <span class="material-icons">
+                <img class="img-arrow" src="assets/img/seta-para-cima.png" alt="">
+            </span>
+        </a>
 
         <footer class="main-contacts">
             <div class="wrapper-icons">
@@ -197,5 +205,6 @@
         </footer>
 
 <script src="assets/js/components/main-carousel.js"></script>
+<script src="assets/js/components/btn-fixed.js"></script>
 </body>
 </html>
