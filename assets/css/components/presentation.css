@@ -1,10 +1,9 @@
 #presentation {
     background-color: #3A4042;
     box-shadow: 6px 6px 0px #000;
-    padding: 42px 44px;
     text-align: center;
     display: inline-block;
-
+    padding: 42px;
 }
 
 #presentation .my-name {
@@ -23,8 +22,6 @@
 }
 
 
-
-
 .function {
     font-family: "Press Start 2P", sans-serif;
     color: #FFFFFF;
@@ -34,3 +31,50 @@
 
 }
 
+
+@media (min-width: 1024px) and (max-width: 1357px){
+    .function {
+        font-size: 2.0rem;
+    }
+    .my-name {
+        font-size: 3.5rem;
+    }
+    #presentation .my-name {
+        margin-bottom: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 886px){
+    .function {
+        font-size: 1.49rem;
+    }
+    .my-name {
+        font-size: 2.3rem;
+    }
+    #presentation .my-name {
+        margin-bottom: 3px;
+    }
+}
+@media (min-width: 887px) and (max-width: 1023px){
+    .function {
+        font-size: 1.8rem;
+    }
+    .my-name {
+        font-size: 2.6rem;
+    }
+    #presentation .my-name {
+        margin-bottom: 3px;
+    }
+}
+
+@media (max-width: 767px) {
+    .function {
+        font-size: 1.4rem;
+    }
+    .my-name {
+        font-size: 1.9rem;
+    }
+    #presentation .my-name {
+        margin-bottom: 0px;
+    }
+}

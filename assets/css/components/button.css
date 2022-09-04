@@ -24,7 +24,7 @@
     color: #FFFFFF;
     cursor: pointer;
     line-height: 2.6rem;
-    padding: 16px 18px;
+    padding: 18px 18px;
     transition: all .2s ease-in-out;
 }
 
@@ -49,4 +49,20 @@
     transform: scale(1.08);
     background-color: #f02d4a;
 }
+@media (min-width: 768px) and (max-width:1023px) {
+    .second-btn {
+        padding: 14px 14px;
+    }
+    .contact {
+        padding: 16px 16px ;
+    }
+}
 
+@media  (max-width: 767px) {
+    .second-btn {
+        padding: 11px 11px;
+    }
+    .contact {
+        padding: 12px 12px ;
+    }
+}
