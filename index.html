@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="assets/css/components/main-contacts.css">
     <link rel="stylesheet" href="assets/css/components/section-contacts.css">
     <link rel="stylesheet" href="assets/css/components/btn-fixed.css">
+    <link rel="stylesheet" href="assets/css/components/btn-mobile.css">
 
     <title>Meu Portifolio</title>
     <link rel="icon" href="assets/img/icon.jpg">
@@ -35,14 +36,21 @@
 <body>
     <header>
         <img class="logo" src="assets/img/logo.png" alt="Imagem do eeve" title="o pokemon mais fofo">
-        <nav> 
-        <a class="action" href="#skills" lang="en">Skills</a> 
-        <a class="action" href="#projects">Projetos</a>
-        <a class="action" href="#about">Sobre</a>
-        <a class="action" href="#contacts">Contatos</a>
-        <a class="action" href="assets/archive/João Victor - Curriculo.docx" target="_blank" id="button">
-            Download CV
-        </a>
+  
+        <nav id="navbar"> 
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-expanded="false" aria-controls="main-menu" aria-haspopup="true">
+                <span id="hamburger"></span>
+            </button>
+            <ul id="main-menu" role="menu">
+                <li><a class="action" href="#skills" lang="en">Skills</a> </li>
+                <li><a class="action" href="#projects">Projetos</a></li>
+                <li><a class="action" href="#about">Sobre</a></li>
+                <li><a class="action" href="#contacts">Contatos</a></li>
+                <li><a class="action" href="assets/archive/João Victor - Curriculo.docx" target="_blank" id="button">
+                    Download CV
+                </a></li>
+            </ul>
+        </nav>
     </header>
         <section class="section -banner">
             <div class="wrapper">
@@ -206,5 +214,6 @@
 
 <script src="assets/js/components/main-carousel.js"></script>
 <script src="assets/js/components/btn-fixed.js"></script>
+<script src="assets/js/components/btn-mobile.js"></script>
 </body>
 </html>

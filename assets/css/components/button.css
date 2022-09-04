@@ -3,7 +3,7 @@
     background-color: #F25A70;
     box-shadow: 5px 5px 0px #000000;;
     height: 15px;
-    line-height: 15px;
+    line-height: 1.5rem;
     padding: 16px 18px;
     margin-right: 0;
     transition: 0.8s;
@@ -20,10 +20,10 @@
     background-color: #F25A70;
     box-shadow: 5px 5px 0px #000000;
     font-family: "Fira code", sans-serif;
-    font-size: 15px;
+    font-size: 1.5rem;
     color: #FFFFFF;
     cursor: pointer;
-    line-height: 26px;
+    line-height: 2.6rem;
     padding: 16px 18px;
     transition: all .2s ease-in-out;
 }
@@ -41,7 +41,7 @@
     box-shadow: 5px 5px 0px #000000;
     display: inline-flex;
     justify-content: center;
-    font-size: 15px;
+    font-size: 1.5rem;
     padding: 20px   20px;
     transition: all .2s ease-in-out;
 }

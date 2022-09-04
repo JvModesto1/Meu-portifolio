@@ -1,0 +1,76 @@
+#btn-mobile {
+    display: none;
+}
+
+@media (max-width: 730px){
+    #btn-mobile{
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem ;
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    #main-menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0;
+        background: #000;
+        height: 0;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+        transition: .6s;
+    }
+    #navbar.active #main-menu {
+      height: calc(74vh - 70px);
+      visibility: visible;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+    #main-menu a {
+        border-bottom: 2px solid rgb(161, 159, 159);
+        width: 100%;
+        padding: 1.6rem 0;
+        margin: 0 1rem;
+    }
+
+    a:hover{
+        background: rgb(41, 40, 40);
+        transform: scale(1.03);
+    }
+
+    #button:hover {
+        transform: scale(1.03);
+    }
+
+   #hamburger {
+    display: block;
+    color: white;
+    border-top: 2px solid;
+    width: 20px;
+   }
+   #hamburger::after, #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: currentColor;
+    margin-top: 5px;
+    transition: .4s;
+    position: relative;
+   }
+   #navbar.active #hamburger {
+    border-top-color: transparent;
+   }
+   #navbar.active #hamburger::before{
+    transform: rotate(-135deg);
+   }
+   #navbar.active #hamburger::after {
+    transform: rotate(135deg);
+    top: -7px;
+   }
+}
