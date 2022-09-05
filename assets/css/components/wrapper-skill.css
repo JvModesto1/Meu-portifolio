@@ -7,7 +7,7 @@
     margin-bottom: 70px;
 }
 
-@media (max-width: 965px) {
+@media (min-width: 540px) and (max-width: 965px) {
     .wrapper-skill {
         align-items: center ;
         flex-direction: column;

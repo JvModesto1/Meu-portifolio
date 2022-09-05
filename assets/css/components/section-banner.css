@@ -21,12 +21,14 @@
 @media (min-width: 1024px) and (max-width: 1357px){
     .section.-banner{
         padding-top: 60px;
+        border-bottom: 5px solid #000;
     }
 }
 @media (min-width: 768px) and (max-width: 1023px){
     .section.-banner{
         padding-top: 40px;
         padding-left: 60px;
+        border-bottom: 4px solid #000;
     }
 }
 .section.-banner #presentation {
@@ -45,10 +47,13 @@
     }
     .section.-banner .wrapper {
         max-width: 400px;
+        
     }
     .section.-banner {
         padding-top: 25px;
         padding-left: 30px;
+        border-bottom: 4px solid #000;
+        height: 57vw;
     }
 }
 

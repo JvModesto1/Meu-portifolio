@@ -23,7 +23,7 @@
     justify-content: space-around;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 460px) {
     .title {
         font-size: 1.5rem;
     }

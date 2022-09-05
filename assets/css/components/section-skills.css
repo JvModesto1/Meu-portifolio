@@ -13,3 +13,8 @@
     font-family: 'Press Start 2P';
 }
 
+@media (max-width: 768px) {
+    .section .main-title {
+        font-size: 3.0rem;
+    }
+}

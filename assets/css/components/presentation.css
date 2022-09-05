@@ -81,8 +81,10 @@
 @media (max-width: 767px) {
     .function {
         font-size: 1.0rem;
+        text-shadow: 3px 3px 0px #000;
     }
     .my-name {
+        text-shadow: 3px 3px 0px #000;
         font-size: 1.9rem;
     }
     #presentation .my-name {
@@ -94,13 +96,29 @@
     .function {
         margin-top: 0px;
         font-size: 0.9em;
+        text-shadow: 2px 2px 0px #000;
     }
     .my-name {
         height: 24px;
+        text-shadow: 2px 2px 0px #000;
         font-size: 1.3rem;
     }
     #presentation .my-name {
         margin-bottom: 0px;
+    }
+    #presentation {
+        padding: 16px;
+    }
+}
+@media (min-width: 375px) and (max-width: 424px){
+    .my-name {
+        font-size: 1.2rem;
+        text-shadow: 2px 2px 0px #000;
+        height: 20px;
+    }
+    .function {
+        font-size: 0.76rem;
+        text-shadow: 2px 2px 0px #000;
     }
     #presentation {
         padding: 16px;

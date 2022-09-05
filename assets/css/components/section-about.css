@@ -13,3 +13,10 @@
     padding-right: 50px;
     margin-bottom: 70px;
 }
+
+@media (max-width: 768px) {
+    .main-description {
+        font-size: 2.0rem;
+        line-height: 3.0rem;
+    }
+}

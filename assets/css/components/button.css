@@ -78,3 +78,16 @@
         padding: 7px 7px ;
     }
 }
+
+@media (min-width: 375px) and (max-width: 424px){
+    .second-btn {
+        font-size: 1.0rem;
+        padding: 3px 3px;
+        line-height: 2.7rem;
+    }
+    .contact {
+        font-size: 1.0rem;
+        padding: 5px 5px;
+        line-height: 2.6rem;
+    }
+}

@@ -18,3 +18,9 @@
 .card-projects {
     padding-bottom: 100px;
 }
+
+@media (max-width: 425px) {
+    .image-portifolio {
+        width: 150px;
+    }
+}
