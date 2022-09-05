@@ -16,3 +16,9 @@
 .progress-bar::-moz-progress-bar {
     background-color: #7C5E99;
 }
+
+@media (max-width: 425px){
+    .wrapper-skill .progress-bar {
+        width: 235px;
+    }
+}

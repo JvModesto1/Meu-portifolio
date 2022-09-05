@@ -22,3 +22,10 @@
     flex-direction: column;
     justify-content: space-around;
 }
+
+@media (max-width: 425px) {
+        .icon {
+            margin-top: 10px;
+            width: 50px;
+        }
+}

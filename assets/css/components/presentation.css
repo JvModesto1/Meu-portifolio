@@ -57,7 +57,7 @@
 }
 @media (min-width: 887px) and (max-width: 1023px){
     .function {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
     .my-name {
         font-size: 2.6rem;
@@ -67,14 +67,42 @@
     }
 }
 
+@media (min-width: 768px) and (max-width: 886px){
+    .function {
+        font-size: 1.2rem;
+    }
+    .my-name {
+        font-size: 1.9rem;
+    }
+    #presentation .my-name {
+        margin-bottom: 3px;
+    }
+}
 @media (max-width: 767px) {
     .function {
-        font-size: 1.4rem;
+        font-size: 1.0rem;
     }
     .my-name {
         font-size: 1.9rem;
     }
     #presentation .my-name {
         margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 635px){
+    .function {
+        margin-top: 0px;
+        font-size: 0.9em;
+    }
+    .my-name {
+        height: 24px;
+        font-size: 1.3rem;
+    }
+    #presentation .my-name {
+        margin-bottom: 0px;
+    }
+    #presentation {
+        padding: 16px;
     }
 }

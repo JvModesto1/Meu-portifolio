@@ -57,3 +57,10 @@
     justify-content: space-between;
     transition: transform 400ms ease-in-out;
 }
+
+@media (max-width: 1299px){
+    .logo.-project {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
